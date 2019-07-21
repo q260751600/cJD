@@ -1,0 +1,41 @@
+.fl{
+               position: relative;
+               height: 30px;
+               padding: 0 7px;
+               margin-left: 200px;
+               border:1px solid #00000000;
+                .icon-icon_gps_fill{
+                    font-size: 14px;
+                    color: #f00;
+                }
+                span{
+                     font-size: 12px;
+                }
+                .hide_add{
+                    position: absolute;
+                    top: 30px;
+                    left: -1px;
+                    display: none;
+                    width: 300px;
+                    height: auto;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    border-top: 0;
+                    box-shadow: 1px 1px 1px #ddd;
+                    .add_list{
+                        padding: 10px;
+                        .item{
+                            display: inline-block;
+                            width: 50px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                &:hover{
+                    background: #fff;
+                    border:1px solid #ccc;
+                    .hide_add{
+                        display: block;
+                    }
+                }
+}
